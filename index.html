@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Luís Mendes - Personal Portfolio</title>
+
+  <link rel="shortcut icon" href="./assets/img/logo.ico" type="image/x-icon">
+
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <main>
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="https://avatars.githubusercontent.com/u/22228473?v=4" alt="WitchBoo" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Luís Mendes">Luís Mendes</h1>
+          <p class="title">Developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
+
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+              <a href="mailto:soconfirmo@hotmail.com" class="contact-link">soconfirmo@hotmail.com</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+              <a href="tel:+5547997503082" class="contact-link">+55 (47) 9 9750-3082</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+              <address>Santa Catarina, Brazil</address>
+            </div>
+          </li>
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="https://wa.me/5547997503082" target="_blank" class="social-link">
+              <ion-icon name="logo-whatsapp"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://instagram.com/luis.mendesb/" target="_blank" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://steamcommunity.com/id/witchboo/" target="_blank" class="social-link">
+              <ion-icon name="logo-tiktok"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://youtube.com/@WitchBoo" target="_blank" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+    <div class="main-content">
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <button class="navbar-link active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+        </ul>
+      </nav>
+
+      <article class="about active" data-page="about">
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I'm a developer from Santa Catarina, Brazil, working mainly with Java back-end and a bit of web development.
+            I'm passionate about learning new things, solving problems and expanding my knowledge.
+          </p>
+          <p>
+            My role is to lead my team, delegate tasks, always plan on infrastructure and future expansions and, of
+            course, write a few lines. Also aiming to make it fast and secure as possible. Additionally, I also run some
+            gaming startups too.
+          </p>
+        </section>
+
+        <section class="service">
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/img/icon-java-development.svg" alt="Java Development Icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Java Development</h4>
+
+                <p class="service-item-text">Professional development of services for gaming.</p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/img/icon-infrastructure.svg" alt="Infrastructure Icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Infrastructure</h4>
+                <p class="service-item-text">The most modern solution made at a professional level.</p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/img/icon-web-development.svg" alt="Web Development Icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web Development</h4>
+                <p class="service-item-text">High-quality development of sites at the professional level.</p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/img/icon-documentation.svg" alt="Documentation Icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Documentation</h4>
+                <p class="service-item-text">I make high-quality documentation of any project at a professional level.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+        <section class="clients">
+          <h3 class="h3 clients-title">Clients</h3>
+
+          <ul class="clients-list has-scrollbar">
+            <li class="clients-item">
+              <a href="https://gamebox.digital" target="_blank">
+                <img src="./assets/img/client-gamebox.png" alt="Gamebox Logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://vouncherstudios.com" target="_blank">
+                <img src="./assets/img/client-vouncherstudios.png" alt="Vouncher Studios Logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://redearcadia.com" target="_blank">
+                <img src="./assets/img/client-redearcadia.png" alt="Rede Arcadia Logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://github.com/OlympMC" target="_blank">
+                <img src="./assets/img/client-olympmc.png" alt="Olymp MC Logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://github.com/armarealms" target="_blank">
+                <img src="./assets/img/client-armarealms.png" alt="Arma Realms Logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/img/client-lrratoeiras.png" alt="LR Ratoeiras Logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://freelancer.com.br/" target="_blank">
+                <img src="./assets/img/client-freelancer.png" alt="Freelancer Logo">
+              </a>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+      <article class="resume" data-page="resume">
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Web Developer</h4>
+              <span>2023 — Present</span>
+              <p class="timeline-text">
+                Experience with PHP 7+ and Bootstrap 5. Short experience about style, but always learning something new.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Java Developer</h4>
+              <span>2019 — Present</span>
+              <p class="timeline-text">
+                Experience with some types of SQL as MySQL, SQLite, H2, and a bit of NoSQL as MongoDB. Some kind of
+                experience with Spring Boot, Netty, Git and API stuff. Using Intellij Ultimate as main idea and GitHub
+                as
+                VCS.
+              </p>
+            </li>
+          </ol>
+        </section>
+
+        <section class="skill">
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Java</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Kotlin</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">PHP</h5>
+                <data value="40">40%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 40%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">C#</h5>
+                <data value="30">30%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 30%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">SQL</h5>
+                <data value="45">45%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 45%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Git</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">English</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Español</h5>
+                <data value="40">40%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 40%;"></div>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+      <article class="portfolio" data-page="portfolio">
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+          <ul class="filter-list">
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Website</button>
+            </li>
+          </ul>
+
+          <div class="filter-select-box">
+            <button class="filter-select" data-select>
+              <div class="select-value" data-select-value>Select Category</div>
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+            </button>
+
+            <ul class="select-list">
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Website</button>
+              </li>
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+            <li class="project-item active" data-filter-item data-category="website">
+              <a href="https://gamebox.digital" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="open-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/img/project-gamebox.png" alt="Gamebox Project" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Gamebox</h3>
+                <p class="project-category">Website</p>
+              </a>
+            </li>
+          </ul>
+        </section>
+      </article>
+    </div>
+  </main>
+
+  <script src="./assets/js/script.js"></script>
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
